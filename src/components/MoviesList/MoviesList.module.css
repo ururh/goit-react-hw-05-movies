@@ -1,0 +1,45 @@
+.moviesList {
+  margin-top: 20px;
+}
+
+.moviesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.moviesListItem {
+  text-align: center;
+}
+
+.moviesListLink {
+  text-decoration: none;
+  color: #0b1e1e;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), font-weight 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.moviesListLink:hover,
+.moviesListLink:focus {
+  color: #9b132d;
+  font-weight: 700;
+}
+
+.moviePoster {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movieTitle {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.noFoundText {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+.informationWrapper {
+  margin: 20px;
+}
+
+.goBackBtn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #67139b;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.movieInfoContainer {
+  display: flex;
+}
+
+.poster {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textWrapper {
+  flex: 1;
+}
+
+.mainTitle {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sectionText {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.genres {
+  font-size: 16px;
+}

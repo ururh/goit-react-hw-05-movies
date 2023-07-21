@@ -1,0 +1,13 @@
+.reviews-author {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.reviews-text {
+  text-align: justify;
+}
+
+.reviews-list-item:not(:last-child) {
+  margin-bottom: 15px;
+}
